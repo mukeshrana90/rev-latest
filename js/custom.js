@@ -23,10 +23,11 @@ $(document).ready(function () {
     })
 
     // Scroll to Menu link Position
-    $('.header li a').click(function () {        
-        $('html, body').animate({
-          scrollTop: $('#'+this.id).offset().top
-        }, 2000);
+    $('.header li a').click(function (e) {      
+        var Top = $($(this).attr("href") ).offset().top;	
+		$('html,body').animate({scrollTop:Top},1000);
+        e.preventDefault();	
+        
     });
     
 

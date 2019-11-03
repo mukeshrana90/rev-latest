@@ -43,7 +43,7 @@ a {
   display: block;
   cursor: pointer;
   border-radius: 5px;
-  font-weight: 900;
+  font-weight: 700;
   border: none;
   font-size: 17px;
 }
@@ -105,7 +105,7 @@ a {
   display: block;
   cursor: pointer;
   border-radius: 5px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 /* Hero */
@@ -141,7 +141,7 @@ a {
 .heading-small {
   color: #8298ab;
   font-size: 13px;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0;
@@ -223,7 +223,7 @@ a {
   font-size: 20px;
   padding-bottom: 10px;
   margin: 0;
-  font-weight: 900;
+  font-weight: 700;
 }
 .feature-icon svg {
   width: 35px;
@@ -271,7 +271,7 @@ a {
   font-size: 15px;
 }
 .partner-box a {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 /* Finger print Icon */
@@ -609,7 +609,7 @@ a {
 .rev-info h2 {
   font-size: 35px;
   line-height: 40px;
-  font-weight: 900;
+  font-weight: 700;
   margin: 0 0 30px;
 }
 .lSSlideWrapper {

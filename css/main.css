@@ -73,7 +73,7 @@ a {
 }
 .shape-3 {
   right: -240px;
-  bottom: 5%;
+  bottom: 11%;
   width: 400px;
   height: 400px;
   background: linear-gradient(to right, rgb(197, 64, 89), rgb(232, 76, 105));
@@ -119,7 +119,7 @@ a {
   top: 50%;
   transform: translateY(-50%);
 }
-.banner-image image {
+.banner-image img {
   border-radius: 10px;
   display: block;
 }

@@ -17,17 +17,18 @@ $(document).ready(function () {
     $('.features-container li').mouseover(function () {
         $('.features-container li').removeClass('active');
         $(this).addClass('active');
-        var me = $(this).index();        
+        var me = $(this).index();
         $('.platform-images li').removeClass('active');
-        $('#' + me).addClass('active');       
+        $('#' + me).addClass('active');
     })
 
     // Scroll to Menu link Position
-    $('.header li a').click(function (e) {      
-        e.preventDefault();	
-        var Top = $($(this).attr("href") ).offset().top - 30;	
-		$('html,body').animate({scrollTop:Top},1000);                        
+    $('.header li a').click(function (e) {
+        e.preventDefault();
+        var Top = $($(this).attr("href")).offset().top - 30;
+        $('html,body').animate({ scrollTop: Top }, 1000);
     });
     
+
 
 })

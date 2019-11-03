@@ -661,7 +661,7 @@ ul#lightSlider img {
   margin: 50px 100px;
 }
 /* Media Quaries */
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   ul#lightSlider img {
     width: 90%;
     margin: 0 0 0 5%;

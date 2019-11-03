@@ -656,6 +656,9 @@ a {
 .mobile-menu {
   display: none;
 }
+ul#lightSlider img {
+  width: 300px;
+}
 /* Media Quaries */
 @media (max-width: 767px) {
   img {

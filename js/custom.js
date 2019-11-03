@@ -24,10 +24,9 @@ $(document).ready(function () {
 
     // Scroll to Menu link Position
     $('.header li a').click(function (e) {      
-        var Top = $($(this).attr("href") ).offset().top;	
-		$('html,body').animate({scrollTop:Top},1000);
         e.preventDefault();	
-        
+        var Top = $($(this).attr("href") ).offset().top - 30;	
+		$('html,body').animate({scrollTop:Top},1000);                        
     });
     
 

@@ -614,7 +614,7 @@ a {
 }
 .lSSlideWrapper {
   /* width: 550px; */
-  height: 450px;
+  height: 400px;
   /* margin-bottom: 50px; */
 }
 
@@ -658,9 +658,14 @@ a {
 }
 ul#lightSlider img {
   width: 300px;
+  margin: 50px 100px;
 }
 /* Media Quaries */
 @media (max-width: 767px) {
+  ul#lightSlider img {
+    width: 90%;
+    margin: 0 0 0 5%;
+  }
   img {
     max-width: 100%;
   }

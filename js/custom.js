@@ -28,7 +28,8 @@ $(document).ready(function () {
         var Top = $($(this).attr("href")).offset().top - 30;
         $('html,body').animate({ scrollTop: Top }, 1000);
     });
+
+    // Autoplay Video
+    document.getElementById('video').play();
     
-
-
 })

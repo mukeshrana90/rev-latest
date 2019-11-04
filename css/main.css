@@ -119,9 +119,13 @@ a {
   top: 50%;
   transform: translateY(-50%);
 }
-.banner-image img {
+.banner-image img,
+.banner-image video {
   border-radius: 10px;
   display: block;
+  width: 650px;
+  max-width: 100%;
+  outline: none;
 }
 .banner-content {
   width: 500px;
@@ -686,6 +690,10 @@ ul#lightSlider img {
     position: static;
     transform: none;
     padding-top: 20px;
+  }
+  .banner-image img,
+  .banner-image video {
+    width: 100%;
   }
   .heading-large {
     font-size: 35px;

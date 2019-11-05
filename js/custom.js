@@ -23,13 +23,11 @@ $(document).ready(function () {
     })
 
     // Scroll to Menu link Position
-    $('.header li a').click(function (e) {
+    $('.header li a, .btn').click(function (e) {
         e.preventDefault();
         var Top = $($(this).attr("href")).offset().top - 30;
         $('html,body').animate({ scrollTop: Top }, 1000);
     });
 
-    // Autoplay Video
-    document.getElementById('video').play();
     
 })

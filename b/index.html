@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link type="text/css" rel="stylesheet" href="css/lightslider.min.css" />
@@ -38,12 +37,10 @@
                 </div>
                 <div class="more-actions">
                     <ul>
-                        <li>
-                            <a href="#contact">Contact Us</a>
-                        </li>
+                        <li><a href="#contact">Contact Us</a></li>
                     </ul>
                 </div>
-                <!-- 
+
                 <button class="mobile-menu-btn"></button>
                 <div class="mobile-menu">
                     <ul>
@@ -52,25 +49,25 @@
                         <li><a href="#partners">Featured Partners</a></li>
                         <li><a href="#contact">Contact Us</a></li>
                     </ul>
-                </div> -->
+                </div>
             </div>
             <!-- Header End -->
         </div>
 
         <div class="hero-banner">
             <div class="container">
-                <div class="banner-content">
+                <div class="banner-content" data-aos="fade-up">
                     <h1>Fintech Innovation That Goes Beyond Transactions</h1>
                     <p>We deliver payment experiences around the world, leveraging a proprietary payments processing and
                         product development platform, in collaboration with like-minded partners. We have vast
                         experience pioneering industry firsts, and are currently focused prepaid & debit travel,
-                        loyalty, and cross-border solutions.
+                        loyalty, and cross-border solutions." On that last line.
                     </p>
-                    <!-- <a href="#contact" class="btn btn-primary">Learn more</a> -->
+                    <a href="#contact" class="btn btn-primary">Learn more</a>
                 </div>
                 <div class="banner-image">
                     <video playsinline autoplay loop muted id="video">
-                        <source src="images/banner1.mp4" type="video/mp4">
+                        <source src="images/banner.mp4" type="video/mp4">
                     </video>
                     <script>
                         document.getElementById('video').play();
@@ -210,77 +207,31 @@
         </div>
         <!-- Our Mission Wrapper end -->
 
-        <div class="partners-wrapper" id="partners" data-aos="fade-up">
+        <div class="partners-wrapper" id="partners">
             <div class="container">
-                <ul id="lightSlider2">
-                    <li>
-                        <div class="partner-box-wrap">
-                            <div class="partner-box-left">
-                                <h4>Etihad Airways Guest Card with WalletPlus</h4>
-                                <p>In partnership with UAE's second largest airline, Rêv developed WalletPlus, the
-                                    international travel wallet of the airline's award-winning Etihad Guest loyalty
-                                    program.</p>
-                            </div>
-                            <div class="partner-box-right">
-                                <img src="images/ethiad-1.jpg" />
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="partner-box-wrap">
-                            <div class="partner-box-left">
-                                <h4>Westpac Bank’s Global Currency Card</h4>
-                                <p>In partnership with one of Australia's largest retail bank groups, Rêv produced the
-                                    Global Currency Card, the travel card for the bank's 12+ million customers looking
-                                    for a more secure and convenient way to shop overseas.</p>
-                            </div>
-                            <div class="partner-box-right">
-                                <img src="images/west-pac.jpg" />
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="partner-box-wrap">
-                            <div class="partner-box-left">
-                                <h4>St. George Bank’s Global Currency Card</h4>
-                                <p>In partnership with one of Australia's largest retail bank groups, Rêv produced the
-                                    Global Currency Card, the travel card for the bank's 12+ million customers looking
-                                    for a more secure and convenient way to shop overseas.</p>
-                            </div>
-                            <div class="partner-box-right">
-                                <img src="images/stGeorge.jpg" />
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="partner-box-wrap">
-                            <div class="partner-box-left">
-                                <h4>Scandanavian Airline’s Travel Wallet Card</h4>
-                                <p>In partnership with the largest airline in Scandinavia, Rêv developed the Travel
-                                    Wallet Card for its EuroBonus loyalty program, providing members the ability to earn
-                                    miles & pay in local currency abroad.</p>
-                            </div>
-                            <div class="partner-box-right">
-                                <img src="images/stGeorge-2.jpg" />
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="partner-box-wrap">
-                            <div class="partner-box-left">
-                                <h4>Australia's Velocity Frequent Flyer Global Wallet</h4>
-                                <p>In partnership with Australia's second largest airline, Rêv has delivered the
-                                    multi-currency wallet feature to its Velocity Frequent Flyer program, allowing
-                                    members to earn points as they travel the world.</p>
-                            </div>
-                            <div class="partner-box-right">
-                                <img src="images/velocity-1.jpg" />
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-
+                <div class="col">
+                    <div class="partner-box box-small sas-travel" data-aos="fade-up">
+                        <h5>SAS Travel Wallet</h5>
+                        <p>Introducing The SAS EuroBonus Travel Wallet, the reloadable multi-currency card that rewards
+                            you with EuroBonus Extra points everywhere Mastercard is accepted.</p>
+                        <div><a href="https://sastravelwallet.com" target=_blank>Go to website ></a></div>
+                    </div>
+                    <div class="partner-box box-small ethiad-wallet" data-aos="fade-up" data-aos-delay="100">
+                        <h5>Etihad Wallet Plus</h5>
+                        <p>Spend like a local, earn like a king with the pre-paid Visa card that gives you the freedom
+                            to earn miles while you shop for anything you want.</p>
+                        <div><a href="https://www.etihadguest.com/en/earn-miles/walletplus.html" target="_blank">Go to
+                                website ></a></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="partner-box box-big velocity-global" data-aos="fade-up">
+                        <h5>Velocity Global Wallet</h5>
+                        <p>The Visa Prepaid Card that gives you 3 Velocity Points for every AU$1 spent* around the globe
+                        </p>
+                        <div><a href="https://velocityglobalwallet.com" target="_blank">Go to website ></a></div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Partners Wrapper end -->

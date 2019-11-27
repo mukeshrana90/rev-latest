@@ -12,21 +12,6 @@ $(document).ready(function () {
         slideMargin: 0,
         thumbItem: 10
     });
-    var slider = $('#lightSlider2').lightSlider({
-        gallery: false,
-        item: 1,
-        pager: false,
-        loop: true,
-        slideMargin: 0,
-        thumbItem: 10,
-        adaptiveHeight: true,
-    });
-
-    var windowWidth = $(window).outerWidth();
-    if(windowWidth <= 768) {
-        slider.destroy();
-    }   
-    
 
     // Toggle Feature Image on Mouseover
     $('.features-container li').mouseover(function () {

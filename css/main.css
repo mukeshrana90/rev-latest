@@ -797,13 +797,9 @@ ul#lightSlider img {
     display: none;
   }
   .hero-banner {
-    padding-top: 20px;
+    padding-top: 80px;
     height: auto;
-  }
-  .header {
-    position: static;
-    transform: none;
-  }
+  }  
   .banner-content {
     transform: none;
     padding: 10px 0 0;

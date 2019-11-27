@@ -186,7 +186,9 @@ a {
   font-weight: 700;
 }
 .banner-content .btn {
-  margin-top: 40px;
+  margin-top: 30px;
+  background: #fff;
+  color: #323232;
 }
 .our-mission-wrapper {
   margin-top: 40px;
